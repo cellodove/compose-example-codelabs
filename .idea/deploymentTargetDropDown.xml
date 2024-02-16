@@ -11,6 +11,12 @@
       <entry key="compose_layout">
         <State />
       </entry>
+      <entry key="migrating_compose">
+        <State />
+      </entry>
+      <entry key="test">
+        <State />
+      </entry>
     </value>
   </component>
 </project>

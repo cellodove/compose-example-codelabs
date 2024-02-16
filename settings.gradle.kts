@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "compose-example-codelabs"
 include(":compose_basic")
 include(":compose_layout")
+include(":migrating_compose")
