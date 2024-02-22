@@ -9,7 +9,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import com.cellodove.migrating_compose.sunflower.workers.SeedDatabaseWorker
-import com.google.samples.apps.sunflower.utilities.DATABASE_NAME
+import com.cellodove.migrating_compose.sunflower.utilities.DATABASE_NAME
 
 /**
  * The Room database for this app

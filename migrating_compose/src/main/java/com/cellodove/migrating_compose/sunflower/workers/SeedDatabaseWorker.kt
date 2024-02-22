@@ -25,7 +25,7 @@ import com.google.gson.reflect.TypeToken
 import com.google.gson.stream.JsonReader
 import com.cellodove.migrating_compose.sunflower.data.AppDatabase
 import com.cellodove.migrating_compose.sunflower.data.Plant
-import com.google.samples.apps.sunflower.utilities.PLANT_DATA_FILENAME
+import com.cellodove.migrating_compose.sunflower.utilities.PLANT_DATA_FILENAME
 import kotlinx.coroutines.coroutineScope
 
 class SeedDatabaseWorker(

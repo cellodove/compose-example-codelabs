@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.samples.apps.sunflower.utilities
+package com.cellodove.migrating_compose.sunflower.utilities
 
 /**
  * Constants used throughout the app.

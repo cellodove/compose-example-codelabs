@@ -54,6 +54,7 @@ android {
 
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2024.02.00"))
+    debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")
 
     kapt ("androidx.room:room-compiler:2.6.1")
     kapt("com.github.bumptech.glide:compiler:4.16.0")
@@ -93,6 +94,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material3:material3:1.2.0")
     implementation("androidx.compose.material3:material3-window-size-class:1.2.0")
+    implementation("androidx.compose.runtime:runtime-livedata")
 
     // Testing dependencies
     androidTestImplementation ("androidx.arch.core:core-testing:2.2.0")

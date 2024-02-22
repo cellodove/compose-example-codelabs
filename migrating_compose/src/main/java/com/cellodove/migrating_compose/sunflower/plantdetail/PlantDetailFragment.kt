@@ -2,9 +2,11 @@ package com.cellodove.migrating_compose.sunflower.plantdetail
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.compose.material3.MaterialTheme
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.app.ShareCompat
 import androidx.core.widget.NestedScrollView
@@ -90,6 +92,17 @@ class PlantDetailFragment : Fragment() {
                     else -> false
                 }
             }
+
+            plantDetailViewModel.plant.observe(viewLifecycleOwner){
+                Log.e("", "plantDetailViewModel : $it")
+            }
+
+            composeView.setContent {
+                MaterialTheme {
+                    PlantDetailDescription(plantDetailViewModel = plantDetailViewModel)
+                }
+            }
+
         }
         setHasOptionsMenu(true)
 
